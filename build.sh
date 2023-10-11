@@ -14,7 +14,7 @@ cd ~/Documents/Windows_privs && sudo git clone https://raw.githubusercontent.com
 cd ~/Documents/Windows_privs && sudo git clone https://github.com/daem0nc0re/PrivFu/tree/main/PrivilegedOperations/SeDebugPrivilegePoC
 cd ~/Documents && sudo wget https://raw.githubusercontent.com/EmpireProject/Empire/master/data/module_source/privesc/Invoke-BypassUAC.ps1
 cd ~/Documents && git clone https://github.com/jpillora/chisel.git && cd chisel && go build
-
+cd ~/Documents && sudo git clone https://github.com/ropnop/kerbrute.git && cd kerbrute && sudo make all
 cd ~/Documents/Windows_privs && wget https://raw.githubusercontent.com/ohpe/juicy-potato/master/CLSID/GetCLSID.ps1 -o  JuicyPotato_GetCLSid.ps1
 cd ~/Documents && wget https://raw.githubusercontent.com/juliourena/plaintext/master/Scripts/cookieextractor.py -o Firefox_cookieeextractor.py
 cd ~/Documents && git clone https://github.com/Mebus/cupp.git
