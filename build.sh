@@ -9,6 +9,7 @@ export GOROOT=/usr/lib/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
+cd ~/Documents && git clone https://github.com/ihebski/DefaultCreds-cheat-sheet && pip3 install -r requirements.txt&&cp creds /usr/bin/ && chmod +x /usr/bin/creds
 cd ~/Documents && mkdir Windows_privs && sudo git clone https://github.com/giuliano108/SeBackupPrivilege
 cd ~/Documents/Windows_privs && sudo git clone https://raw.githubusercontent.com/fashionproof/EnableAllTokenPrivs/master/EnableAllTokenPrivs.ps1
 cd ~/Documents/Windows_privs && sudo git clone https://github.com/daem0nc0re/PrivFu/tree/main/PrivilegedOperations/SeDebugPrivilegePoC
